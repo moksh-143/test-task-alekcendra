@@ -1,0 +1,563 @@
+
+.root{
+    max-width: 1440px;
+    margin: auto;
+}
+.bgimg{
+    width: 100%;
+    height: 100%;
+}
+.wavebox{
+    position: relative;
+    height: 650px;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.waveimg{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.waveimg2{
+    width: 100%;
+    position: absolute;
+    bottom: -2px;
+    left: 0px;
+}
+.headingContent{
+    position: absolute;
+    top: 50%;
+    display: flex;
+    align-items: center;
+    gap: 109px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.inputTag{
+    display: flex;
+    gap: 20px;
+}
+.inputTag {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 16px;
+}
+.headingContent h1{
+    color: #FFF;
+    font-size: 64px;
+    text-align: start;
+    font-weight: 700;
+    line-height: 72px;
+}
+.headingContent h1 span{
+    color: #194d41eb;
+    text-shadow:
+        -1px 0px 0px white,
+        1px 0px 0px white,
+        0px -1px 0px white;
+    font-size: 64px;
+    text-align: start;
+    font-weight: 700;
+    line-height: 72px;
+}
+.headingContent p{
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: start;
+}
+.sideContentBox{
+    width: 601px;
+}
+.sideContactBox{
+    border-radius: 12px;
+    background: linear-gradient(180deg, #2A7D6C 0%, rgba(62, 105, 96, 0.62) 100%);
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.12);
+    padding: 50px 28px;
+    width: 472px;
+}
+.sideContactBox h3{
+    padding-bottom: 34px;
+    color: #FFF;
+text-align: center;
+font-size: 28px;
+font-weight: 700;
+line-height: normal;
+}
+.headerbg{
+    background-color: transparent !important;
+    position: absolute !important;
+    top: 0 !important;
+    box-shadow: none !important;
+}
+.submitButton{
+    margin-top: 41px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin: auto;
+    width: 221px;
+    padding-block: 16px;
+    border-radius: 4px;
+    background: #5BC8AF;
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.08);
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+}
+.inputTag input, .inputTag label, .inputTag fieldset{
+    color: white !important;
+    border-color: white !important;
+}
+.selectItem{
+    text-align: start;
+    color: white;
+}
+.selectItem svg{
+    fill: white;
+}
+.gridParentBox{
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+.gridBox{
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    align-items: start;
+}
+.gridBoxContent{
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    align-items: start;
+    padding-inline: 20px;
+}
+.gridBoxContent div:first-child span{
+    font-weight: 900;
+}
+.gridBoxContent div:first-child{
+    width: 370px;
+    text-align: start;
+    color: #333;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+}
+.gridBoxContent div{
+    width: 370px;
+    text-align: start;
+    color: #333;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.gridBoxContent2{
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    align-items: start;
+}
+.gridBoxContent2 div{
+    width: 370px;
+    text-align: start;
+    color: #333;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.gridBoxContent2 button{
+    border-radius: 4px;
+    border: 2px solid #5BC8AF;
+    color: #5BC8AF;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+.gridBox2{
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    align-items: start;
+    margin-bottom: 100px;
+}
+.gridBox .gridimg{
+    height: 180px;
+    width: 370px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.gridBoxBorder{
+    position: relative;
+    height: 96px;
+    width: 370px;
+    border-radius: 4px;
+    border: 2px solid #5BC8AF;
+    color: #333;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 36px;
+}
+.gridBoxBorder:hover{
+    color: #5BC8AF;
+    cursor: pointer;
+}
+.understandHeading{
+    color: #333;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 46px;
+text-align: start;
+margin-top: 50px;
+margin-bottom: 32px;
+}
+.understandHeading2{
+    color: #333;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 46px;
+text-align: start;
+margin-top: 50px;
+padding-left: 128px;
+margin-bottom: 32px;
+}
+.understandHeading2 span{
+    color: white;
+    text-shadow:
+        -1px 0px 0px rgb(0, 0, 0),
+        1px 0px 0px rgb(0, 0, 0),
+        0px -1px 0px rgb(0, 0, 0);
+    font-size: 36px;
+    text-align: start;
+    font-weight: 700;
+    line-height: 46px;
+}
+.understandHeading span{
+    color: white;
+    text-shadow:
+        -1px 0px 0px rgb(0, 0, 0),
+        1px 0px 0px rgb(0, 0, 0),
+        0px -1px 0px rgb(0, 0, 0);
+    font-size: 36px;
+    text-align: start;
+    font-weight: 700;
+    line-height: 46px;
+}
+.footerText{
+    position: absolute;
+    left: 128px;
+    top: 64px;
+}
+.watchHeading{
+    color: white;
+    font-size: 36px;
+    text-align: start;
+    font-weight: 700;
+    margin-bottom: 48px;
+    line-height: 46px;
+}
+.watchHeading span{
+    color: #255048;
+    text-shadow:
+        -1px 0px 0px rgb(255, 255, 255),
+        1px 0px 0px rgb(255, 255, 255),
+        0px -1px 0px rgb(255, 255, 255);
+    font-size: 36px;
+    text-align: start;
+    font-weight: 700;
+    line-height: 46px;
+}
+.footerimg, .bottomimg{
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+}
+.footerBox {
+    position: relative;
+}
+.footerBox .footersvg1{
+    position: absolute;
+    left: 0;
+    height: 650px;
+}
+.footerBox .footersvg2{
+    position: absolute;
+    left: 10;
+    height: 650px;
+}
+.videoBtn{
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.footerContentBox{
+    display: flex;
+    gap: 12px;
+    align-items: baseline;
+    margin-bottom: 22px;
+}
+.footerContentBox h4{
+    color: var(--ffffff, #FFF);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: start;
+}
+.footerContentBox p{
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    max-width: 430px;
+    text-align: left;
+    padding-top: 8px;
+}
+.footerData{
+    display: flex;
+    justify-content: space-between;
+    padding: 38px 128px;
+}
+.footerData div{
+    color: #757575;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.alertParentBox{
+    display: none;
+}
+.gridBox2 .gridBoxBorder:hover .alertParentBox{
+    display: block;
+}
+.alertParentBox svg{
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+}
+.alertBox{
+    
+    border-radius: 8px;
+    background: #297C6B;
+    position: absolute;
+    bottom: -95px;
+    padding: 10px;
+    left: 35px;
+    color: #FFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+    width: 300px;
+}
+.navbarBtn:last-child{
+    border-left: 1px solid #d3d3d366;
+    border-radius: 0;
+    padding-left: 25px;
+    margin-left: 25px;
+}
+
+@media (max-width: 600px){
+    .gridBoxParentBorder .gridBox{
+        align-items: center !important;
+    }
+    .gridParentBox{
+        padding-bottom: 0;
+    }
+    .gridBoxParentBorder .gridBox2{
+        align-items: center !important;
+    }
+    .sideContentBox{
+        width: 100%;
+        padding-inline: 20px;
+    }
+    .headingContent h1{
+        font-size: 30px;
+        display: block;
+        text-align: center;
+        line-height: 40px;
+    }
+    .headingContent h1 span{
+        display: block;
+        font-size: 30px;
+        text-align: center;
+        line-height: 40px;
+    }
+    .sideContactBox{
+        width: 100%;
+        margin: 10px;
+    }
+    .headingContent{
+        width: 90%;
+    }
+    .inputTag{
+        flex-direction: column;
+    }
+    .waveimg, .waveimg2{
+        height: auto;
+    }
+    .gridBoxContent2{
+        flex-direction: column;
+        padding: 20px;
+        gap: 16px;
+        margin-top: unset !important;
+
+    }
+    .gridBoxContent2 div{
+        width: 100%;
+    }
+    .gridParentBox .gridBox{
+        justify-content: start;
+        padding-left: 20px;
+    }
+    .gridParentBox .gridBox img{
+        display: none;
+    }
+    .understandHeading{
+        margin-top: 0;
+        margin-bottom: 0;
+        position: unset !important;
+    }
+    .bgimg{
+        object-fit: cover;
+    }
+    .understandHeading2{
+        padding-left: 20px;
+    }
+    .gridBoxContent{
+        flex-direction: column;
+        padding: 20px;
+        gap: 16px;
+    }
+    .gridBox, .gridBox2{
+        flex-direction: column;
+        align-items: start;
+        justify-content: unset;
+        gap: 0;
+    }
+    .gridBoxBorder{
+        margin-top: 16px;
+        width: 90%;
+        max-width: 370px;
+    }
+    .alertBox{
+        z-index: 11;
+    }
+    .gridBoxContent div{
+        width: 100%;
+    }
+    .gridBoxContent div:first-child{
+        width: 100%;
+    }
+    .footerData{
+        padding: 34px 0;
+        flex-direction: column;
+        justify-content: unset;
+        gap: 16px;
+    }
+    
+}
+
+@media(max-width: 1199px){
+    .footerimg{
+        display: none;
+    }
+    .bottomimg{
+        display: block !important;
+        padding-top: 590px;
+        height: 1000px;
+    }
+    .headingContent{
+        display: block;
+    } 
+    .headingContent h1{
+        text-align: center !important;
+    }
+    .headingContent p{
+        text-align: center !important;
+    }
+    .sideContactBox{
+        margin: auto;
+        margin-top: 10px;
+    }
+    .wavebox{
+        height: 950px;
+    }
+    .gridBox .gridimg{
+        height: 120px;
+        width: 250px;
+        object-fit: cover;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+    }
+    .understandHeading2{
+        padding-left: 20px;
+    }
+    .understandHeading{
+        position: absolute;
+    }
+    .gridBoxContent2{
+        margin-top: 130px;
+        padding-inline: 20px;
+    }
+    .gridBox, .gridBox2{
+        padding-inline: 20px;
+    }
+    .footersvg1, .footersvg2{
+        display: none;
+    }
+    .downImage, .downImage2{
+        display: block !important;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+    .downImage{
+        z-index: 11;
+    }
+    .videoBtn{
+        position: absolute;
+        top: 66%;
+        cursor: pointer;
+        z-index: 1111;
+        left: calc(50% - 100px);
+    }
+    .footerText{
+        z-index: 11111;
+        left: 20px;
+        /* margin-top: 100px; */
+    }
+}
+@media(max-width: 900px){
+    .gridBox .gridimg{
+        height: 80px;
+        width: 180px;
+        object-fit: cover;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+    }
+}
+.downImage, .downImage2{
+    display: none;
+}
+.bottomimg{
+    display: none;
+}

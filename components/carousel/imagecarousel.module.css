@@ -1,0 +1,172 @@
+.caroconatiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.carouselContainer {
+    width: 1200px;
+    margin: auto;
+}
+
+
+.paradiv {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.paradiv {
+    max-width: 645px;
+    background-color: #194D44;
+    filter: drop-shadow(0px 10px 30px rgba(0, 0, 0, 0.12));
+    padding: 62px 65px 42px;
+    border-radius: 0px 10px 10px 0px;
+    height: 270px;
+    position: relative;
+}
+
+.paradiv h3 {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: start;
+    padding-bottom: 16px;
+}
+
+.paradiv p {
+    color: #FFF;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: start;
+}
+
+.paradiv svg {
+    position: absolute;
+    right: 65px;
+    top: 38px;
+}
+
+.sideImage img {
+    border-radius: 10px 0px 0px 10px;
+    width: 270px !important;
+    height: 270px;
+    flex: 1;
+}
+
+.carouselContainer>div:first-child {
+    display: flex;
+    align-items: center;
+    height: 350px;
+}
+
+.carouselContainer>div:first-child>ul {
+    bottom: -10px;
+}
+
+.carouselContainer>div:first-child>ul li {
+    background-color: #5BC8AF !important;
+    box-shadow: none !important;
+    padding: 5px;
+}
+
+.carouselContainer>div:first-child>p {
+    display: none;
+}
+
+.arrowColor {
+    fill: lightgray;
+    cursor: pointer;
+    font-size: 35px;
+}
+
+@media(max-width: 1200px) {
+    .carouselContainer>div:first-child {
+        height: 270px;
+    }
+    .carouselContainer{
+        width: unset;
+    }
+    .carouselContainer>div:first-child>ul {
+        bottom: -6px;
+        width: 100vw;
+    }
+
+    .paradiv {
+        max-width: 495px;
+        height: 198px;
+        padding: 33px 37px;
+    }
+    .paradiv p{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .paradiv svg{
+        top: 20px;
+        width: 40px;
+    }
+
+    .carouselContainer>div:first-child>div>svg {
+        display: none;
+    }
+
+    .carouselContainer>div>div ul li {
+        /* min-width: 100vw !important; */
+        padding-inline: 20px;
+    }
+
+    /* .carouselContainer>div>div ul {
+        transform: translate3d(0vw, 0px, 0px) !important;
+        transform: translate3d(-100vw, 0px, 0px) !important;
+        transform: translate3d(-200vw, 0px, 0px) !important;
+    } */
+    
+.sideImage img {
+    border-radius: 10px 0px 0px 10px;
+    width: 198px !important;
+    height: 198px;
+}
+}
+
+@media(max-width: 600px) {
+    .caroconatiner {
+        display: block;
+        position: relative;
+        padding-top: 100px;
+    }
+    
+    .carouselContainer>div:first-child {
+        height: 550px;
+    }
+    .paradiv{
+        height: 380px;
+        border-radius: 10px;
+        margin: auto;
+        padding-top: 152px;
+    }
+    .sideImage img{
+    border-radius: 10px 10px 0px 0px;
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    z-index: 11;
+    left: 50px;
+    top: 35px;
+    }
+    .paradiv p{
+        font-size: 14px;
+        line-height: 24px;
+        font-style: italic;
+    }
+    .paradiv svg{
+        top: 73px;
+        width: 60px;
+        right: 28px;
+    }
+
+}
